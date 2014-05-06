@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--******[ HEAD START ]******-->
+<head>
+<link rel="stylesheet" type="text/css" href="Default.css">
+<title>Such Hobbies</title>
+<META HTTP-EQUIV="refresh" CONTENT="300">
+<meta name="author" content="Zach T.">
+<meta name="description" content="A fake website made from scratch to buy hobby things.">
+<base href="C:\Users\asdfghjkl\Dropbox\Web Design\" target="_blank"></base>
+<script>
+function Cart_side() {
+  
+  for(i=0;i<=item.length;i++){
+    document.writeln(item[i]);
+  }
+}
+</script>
+</head>
+<!--******[ HEAD END ]******-->
+<!--******[ BODY START ]******-->
+<body>
+<img id="banner" src="Doge Banner.png"><!--The banner-->
+
+<div id="nav_menu"><!--Navigation menu-->
+<a href="Led.html" target="_top" class="nav_list">LED's</a>
+<a href="Resistors.html" target="_top" class="nav_list">Resistors</a>
+<a href="Resistor Calculator.html" target="_top" class="nav_list">Resistor Calculator</a>
+<a href="Checkout.html" target="_top" class="nav_list">Checkout</a>
+<a href="Default.html" target="_top" class="nav_list">About</a>
+</div>
+
+<div id="Cart_side">
+<p style="text-align:center; color:#555555;">Your Shopping cart:</p>
+<hr>
+<div id="Cart_side_objects">
+<script>document.open();Cart_side();document.close();</script>
+</div>
+</div>
+
+
+</body>
+<!--******[ BODY END ]******-->
+</html>
